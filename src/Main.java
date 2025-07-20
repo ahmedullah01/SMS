@@ -3,7 +3,6 @@ import java.util.Map;
 import java.util.Scanner;
 
 class student {
-
     HashMap<Integer, String> registration = new HashMap<Integer, String>();
     HashMap<Integer, String> registration2 = new HashMap<Integer, String>();
     HashMap<Integer, Integer> registration3 = new HashMap<Integer, Integer>();
@@ -74,6 +73,9 @@ student_DATA(student student){
     this.student = student;
 }
         public void admission(){
+            System.out.println("xdvsd[kc");
+            System.out.println("DFdverfveryfverifg");
+            System.out.println("dfvdfvbehiailerair");
             System.out.println("enter student name");
             String name = sc.nextLine();
             student.setRegistration(name);
@@ -89,6 +91,7 @@ student_DATA(student student){
 public class Main {
     public static void main(String[] args)
     {
+
         student ss1 = new student();
 student_DATA s1 = new student_DATA(ss1);
         student_DATA s2 = new student_DATA(ss1);
